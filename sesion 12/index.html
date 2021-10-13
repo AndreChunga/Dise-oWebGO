@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Encuenta  Cinematografica</title>
+</head>
+<body>
+    <div id="Conternedor"> 
+    <h2 style="color: blue; text-align: center;">
+       <img src="imagenes/oscar.jpg" alt=" oscar" style="height: 70px; align=left;">
+        Encuenta de Cine : Nominadas al Oscar 2021
+        <img src="imagenes/oscar.jpg" alt=" oscar" style="height: 70px; align=left;">
+    </h2>
+    <form id="formulario1" name="formulario1" method="post" action="data.php">
+    <fieldset style="background: cyan;"kground:  id="datos_personales">
+    <legend style="background: cyan;"kground: >Datos Personales</legend>
+    <label for="nombre"> Nombre:</label>
+    <input type="text" name="nombre" id="nombre"><br><br>
+    <label for="apellido"> Apellido:</label>
+    <input type="text" name="apellido" id="apellido"><br><br>
+    <label for="dni"> DNI:</label>
+    <input type="text" name="dni" id="dni" maxlength="9"><br><br>
+    <label for="edad"> Edad:</label>
+    <input type="text" name="edad" id="edad" size="2" maxlength="2"><br>
+    <p>
+         Sexo: 
+        <select name="formulario" id="sexo">
+            <option value="masculino"> Masculino</option>
+            <option value="femenino"> Femenino</option>
+
+        </select>
+    </p>
+    </fieldset > <br>
+    
+    <fieldset style="background: cyan;" id="mejor pelicula">
+        <legend style="background: cyan;"kground: >  Mejor Pelicula</legend>
+        <input type="radio" name="pelicula" > Pelicula 1 <br>
+        <input type="radio" name="pelicula" > Pelicula 2 <br>
+        <input type="radio" name="pelicula" > Pelicula 3 <br>
+  
+    </fieldset> <br>
+    <fieldset style="background: cyan;"kground: id="pelicula mejor">
+        <legend style="background: cyan;"kground: >Selecione las Peliculas que no hayas visto</legend>
+        <labe><input type="checkbox" name="mejor1" > Mejor 01 <br>
+        <labe><input type="checkbox" name="mejor2" > Mejor 02 <br>
+        <labe><input type="checkbox" name="mejor3" > Mejor 03 <br>
+        <labe><input type="checkbox" name="mejor4" > Mejor 04 <br>
+        <labe><input type="checkbox" name="mejor5" > Mejor 05 <br>
+    </fieldset> <br>
+
+    <fieldset style="background: cyan;"kground:  id="grupo_argumento">
+        <legend style="background: cyan;"kground: >Argumento de tu pelicula preferida</legend>
+        <textarea name="argumento" id="argumento" cols="182" rows="14"></textarea>
+
+    </fieldset>
+    <br>
+    <input type="reset" value="Borrar Formulario"> <input type="submit" value="Enviar">
+</body>
+
+</html>

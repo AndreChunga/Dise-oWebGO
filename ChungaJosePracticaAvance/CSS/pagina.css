@@ -1,0 +1,44 @@
+header
+{
+    background-color: skyblue
+    ;
+    
+    height: 150px;
+}
+nav
+{
+    background-color: cornflowerblue;
+    width: 25%;
+}
+section
+{
+    background-color: skyblue;
+    width: 50%;
+}
+
+aside
+{
+    background-color: cornflowerblue;
+    width: 25%;
+}
+footer
+{
+    background-color: skyblue;
+    height: 100px;
+    clear: left;
+}
+
+
+nav, aside, section
+{
+    float: left;
+    height: 350px;
+}
+
+div, h2,img
+{
+    height:150px ;
+    color: red;
+    text-align:left;
+}
+

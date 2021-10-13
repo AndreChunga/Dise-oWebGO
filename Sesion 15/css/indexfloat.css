@@ -1,0 +1,32 @@
+header
+{
+    background-color: cornflowerblue;
+    height: 150px;
+}
+nav
+{
+    background-color: cornflowerblue;
+    width: 25%;
+}
+section
+{
+    background-color: cornflowerblue;
+    width: 50%;
+}
+
+aside
+{
+    background-color: cornflowerblue;
+    width: 25%;
+}
+footer
+{
+    background-color: cornflowerblue;
+    height: 100px;
+    clear: left;
+}
+nav, aside, section
+{
+    float: left;
+    height: 350px;
+}
